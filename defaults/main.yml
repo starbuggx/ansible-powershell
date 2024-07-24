@@ -1,6 +1,6 @@
 ---
 # defaults file for powershell
-powershell_ver: 7.4.3
+powershell_ver: 7.4.4
 powershell_os_map:
   Linux: linux
   Darwin: osx
@@ -349,3 +349,21 @@ powershell_checksums:
     win-x64: sha256:64b4a0636a2af4854b90593ac78645bb59f86b4d094f75b41a5a617afd2478d3
     # https://github.com/PowerShell/PowerShell/releases/download/v7.4.3/PowerShell-7.4.3-win-x86.zip
     win-x86: sha256:52982520dc8282c3daf56762392baf4764741c35278c3e94dda57cb3e583af96
+  # https://github.com/PowerShell/PowerShell/releases/download/v7.4.4/hashes.sha256
+  '7.4.4':
+    # https://github.com/PowerShell/PowerShell/releases/download/v7.4.4/powershell-7.4.4-linux-musl-x64.tar.gz
+    linux-musl-x64: sha256:9ef93bdd9dbe9d80e8aa10e6b233a0cae85a4221fac85f0645a6ef9951f411f2
+    # https://github.com/PowerShell/PowerShell/releases/download/v7.4.4/powershell-7.4.4-linux-arm32.tar.gz
+    linux-arm32: sha256:8725138d3261c056ee103eb9728c25ff62cc0e0d72a3ecdc3c1139d42965d34b
+    # https://github.com/PowerShell/PowerShell/releases/download/v7.4.4/powershell-7.4.4-linux-arm64.tar.gz
+    linux-arm64: sha256:34d8e7d12df163419fca6602e546421c1aabcf6c8f8bb4402dd4e03b1a4c4437
+    # https://github.com/PowerShell/PowerShell/releases/download/v7.4.4/powershell-7.4.4-linux-x64.tar.gz
+    linux-x64: sha256:49435200c43fe6ff83f3e62f9909b4062ed817a31d0697fb57611ea4faca633b
+    # https://github.com/PowerShell/PowerShell/releases/download/v7.4.4/powershell-7.4.4-osx-x64.tar.gz
+    osx-x64: sha256:e2f951c1916319f059b5d26ce097a4f8ac21c1e71fe16f31fd4997ff26a2be24
+    # https://github.com/PowerShell/PowerShell/releases/download/v7.4.4/PowerShell-7.4.4-win-arm64.zip
+    win-arm64: sha256:ca7e26f87b9ea4d1a4e5f6106a2e4506290284a0e892cc1f3e4a4227e7cd59ac
+    # https://github.com/PowerShell/PowerShell/releases/download/v7.4.4/PowerShell-7.4.4-win-x64.zip
+    win-x64: sha256:6461dd3fda39fc65e30c7642f863b9e1dabe32885043094e1d8a79dffcef1dcb
+    # https://github.com/PowerShell/PowerShell/releases/download/v7.4.4/PowerShell-7.4.4-win-x86.zip
+    win-x86: sha256:79f79f5615e65cf84212579eeb7d7cd9c89f2f0ff9dee24ae570561877dfdfcb
