@@ -14,6 +14,7 @@
   become_user: root
   ansible.builtin.package:
     name: '{{ powershell_os_pkgs | default([]) }}'
+    use: 'chocolatey'
     state: present
 - name: Check for {{ powershell_name }} install in {{ powershell_install_dir }}...
   become: true
