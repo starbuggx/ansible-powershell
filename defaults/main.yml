@@ -367,3 +367,8 @@ powershell_checksums:
     win-x64: sha256:6461dd3fda39fc65e30c7642f863b9e1dabe32885043094e1d8a79dffcef1dcb
     # https://github.com/PowerShell/PowerShell/releases/download/v7.4.4/PowerShell-7.4.4-win-x86.zip
     win-x86: sha256:79f79f5615e65cf84212579eeb7d7cd9c89f2f0ff9dee24ae570561877dfdfcb
+  '7.4.6':
+    # https://github.com/PowerShell/PowerShell/releases/download/v7.4.4/powershell-7.4.4-linux-x64.tar.gz
+    linux-x64: sha256:6F6015203C47806C5CC444C19D8ED019695E610FBD948154264BF9CA8E157561
+    # https://github.com/PowerShell/PowerShell/releases/download/v7.4.4/PowerShell-7.4.4-win-x64.zip
+    win-x64: sha256:ED49CE5ADB2162CC4A835D740486BE729BA904627CCA71FCB6C2B95BE11B993D
