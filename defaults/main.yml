@@ -1,6 +1,6 @@
 ---
 # defaults file for powershell
-powershell_ver: 7.4.4
+powershell_ver: 7.5.0
 powershell_os_map:
   Linux: linux
   Darwin: osx
