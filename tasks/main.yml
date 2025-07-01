@@ -32,7 +32,7 @@
         url: '{{ powershell_url }}'
         dest: '{{ powershell_tmp_archive }}'
         mode: '644'
-        checksum: '{{ powershell_checksum }}'
+        # checksum: '{{ powershell_checksum }}'
     - name: Mkdir {{ powershell_install_dir }}
       become: true
       become_user: root
